@@ -15,6 +15,24 @@ public class Main {
 		s=s.substring(0,4)+"le"+s.substring(4);
 		
 		System.out.println(s);
+		
+		String dna="cgateg";
+		System.out.println(dna.indexOf("gat"));
+		System.out.println(dna.substring(1,4));
+		
+		String su="dosomething";
+		
+		System.out.println(reverse(su));
+		
+		
 	}
+	public static String reverse(String su) {
+		String sdk="";
+		for(int k=0;k<su.length();k++) {
+			sdk=su.charAt(k) +sdk;
+			
+		}
+		return sdk;
+		}
 
 }
